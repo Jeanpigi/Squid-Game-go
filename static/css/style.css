@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: grid;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    position: fixed;
+    font-size: 5rem;
+    font-weight: bold;
+    left: 50%;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    transform: translateX(-50%);
+}
